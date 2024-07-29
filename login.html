@@ -1,0 +1,183 @@
+<html>
+<head>
+    <style>
+    nav ul li{
+        float: right;
+       display: inline;
+       margin-right: 50px;
+       font-size:x-large;
+
+    }
+     a:link{
+    color:black;
+}
+a:hover{
+    color:red;
+}
+a:active{
+    color:black;
+}
+body{
+    background-color: rgb(125, 196, 172);
+}
+h1{
+    color: black;
+    padding: 10px;
+}
+h2{
+    color:white;
+}
+font{
+    color:black
+}
+.container{
+     align-items: center;
+     justify-content: center;
+     display: flex;
+}
+img{
+    width: 200px;
+    height: 100px;
+}
+body{
+    background-size:100% 100%;
+}
+input[type=text],input[type=password],input[type=email]{
+    width:100%;
+    padding:15px;
+    margin: 10px;
+}
+input[type=submit]{
+    width: 80%;
+    padding: 10px;
+    background-color:rgb(236, 174, 223);
+}
+footer{
+    position:absolute;
+    bottom: 0%;
+    left:40%;
+    text-align: center;
+}
+h2{
+    background-color:skyblue;
+}
+/* For devices with a width up to 1024px (tablets and small laptops) */
+@media (max-width: 1024px) {
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin-right: 0;
+        margin-bottom: 10px;
+        font-size: large;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .container form {
+        width: 100%;
+        padding: 15px;
+    }
+
+    input[type=submit] {
+        width: 100%;
+    }
+
+    footer {
+        padding: 15px;
+    }
+
+    footer h2 {
+        font-size: medium;
+    }
+}
+
+/* For devices with a width up to 768px (tablets in portrait mode) */
+@media (max-width: 768px) {
+    nav ul {
+        font-size: large;
+    }
+
+    nav ul li {
+        margin-bottom: 8px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    .container form {
+        width: 100%;
+        padding: 10px;
+    }
+
+    input[type=submit] {
+        width: 100%;
+        padding: 12px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+
+    footer h2 {
+        font-size: small;
+    }
+}
+
+/* For devices with a width up to 480px (mobile devices) */
+@media (max-width: 480px) {
+    nav ul {
+        font-size: medium;
+    }
+
+    nav ul li {
+        font-size: medium;
+        margin-bottom: 5px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .container form {
+        width: 100%;
+        padding: 10px;
+    }
+}    
+</style>
+</head>
+<body>
+    <body background="a3.jpg"></body>
+    <nav>
+    <ul>
+        <li> <a href="contact.html">CONTACT</li>
+        <li> <a href="reg.html">REGISTRATION FORM</a></li>
+        <li> <a href="Sign in.html">SIGN IN</a></li> 
+        <li> <a href="about.html">ABOUT</a></li> 
+        <li> <a href="home.html">HOME</a></li>
+        <img src="logo.webp">
+    </ul>
+    </nav>
+    <center><font size="9">Login In</font></center><br>
+    <div class="container">
+        <form action="loginsuc.html">
+        <h3>Username</h3>   
+        <input type="text" name="username" placeholder="Enter username"><br>
+        <h3>Email</h3>
+        <input type="email" name="mail" placeholder="Enter Your Email"><br>
+        <h3>Password</h3>
+        <input type="password" name="pass" placeholder="Enter your password"><br>
+        <input type="submit" value="Login">
+    </form>
+    </div>
+    <footer>
+        <h2>&copy;  2024 LIFE HOSPITAL. ALL Rights Reserved</h2>
+    </footer>
+    </body>
+</html>

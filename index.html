@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <title>MY FIRST WEBSITE</title>
+        <style>
+            nav ul li{
+        float: right;
+       display: inline;
+       margin-right: 50px;
+       font-size:x-large;
+
+    }
+    body{
+        background-size:cover;
+    }
+    a:visited{
+    color:rgb(7, 10, 6);
+}
+a:hover{
+    color:red;
+}
+a:active{
+    color:black;
+}
+img{
+    width: 200px;
+    height: 100px;
+}
+footer{
+    position:absolute;
+    bottom: 0%;
+    left:40%;
+    text-align: center;
+}
+h2{
+    background-color: wheat;
+}
+/* Media query for tablets and smaller screens */
+@media (max-width: 768px) {
+    nav ul {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    nav ul li {
+        float: none;
+        display: block;
+        margin-right: 0;
+        font-size: large;
+    }
+    img {
+        width: 150px;
+        height: auto; /* Adjust height to maintain aspect ratio */
+    }
+    footer {
+        left: 0;
+        width: 100%;
+        text-align: center;
+        position: relative; /* Adjust to prevent overlap */
+    }
+    body {
+        background-size: cover; /* Ensure background covers smaller screens properly */
+    }
+}
+
+/* Media query for mobile phones */
+@media (max-width: 480px) {
+    nav ul li {
+        font-size: medium;
+    }
+    img {
+        width: 120px;
+        height: auto; /* Maintain aspect ratio */
+    }
+    footer h2 {
+        font-size: small; /* Adjust font size for smaller screens */
+    }
+    font {
+        font-size: large; /* Adjust font size for better readability */
+    }
+}
+
+
+        </style>
+    </head>
+    <body>
+        <body background="bg.jpeg"></body>
+        <nav>
+        <ul>
+            <li> <a href="contact.html">CONTACT</li>
+                <li> <a href="reg.html">REGISTRATION FORM</a></li>
+                <li> <a href="Sign in.html">SIGN IN</a></li> 
+                <li> <a href="about.html">ABOUT</a></li> 
+                <li> <a href="home.html">HOME</a></li>
+                <img src="logo.webp"/>
+        </ul>
+        </nav>
+        <font size="8"><i><br>life is creative<br><i></i></i></font>
+         <font size="8"><i>  enjoy before it ends..</i></font>
+        <footer>
+            <h2>&copy;  2024 LIFE HOSPITAL. ALL Rights Reserved</h2>
+        </footer>
+    </body>
+</html>
